@@ -1,0 +1,87 @@
+
+
+*{
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+
+}
+body{
+    width: 1440px;
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-size: 35%, 80%;
+    background-repeat: no-repeat, no-repeat;
+}
+.main{
+    margin : 100px 0px 0px 150px;
+    width: 80%;
+}
+h1{
+    color: #502050;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    padding-right: 140px;
+}
+.product{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 90%;
+
+}
+.description{
+    color: #502050; 
+    font-weight: 300; 
+    margin : 0px;
+    padding-right: 180px;
+}
+.ratings{
+    padding-left: 50px;
+    width: 100%;
+
+}
+.rating {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #f7f2f7;
+    margin: 15px 0px;
+    padding-top: 6px;
+    border-radius: 10px;
+    width: 500px;
+}
+.a{
+    position: relative;
+    left: -50px;
+}
+.c{
+    position: relative;
+    left: 50px;
+}
+.estrellas{
+    margin: 0px 30px;
+}
+.bolder{
+    margin: 15px 0px;
+    font-weight: 700;
+    padding: 0px;
+}
+.reviews{
+    display: flex;
+}
+.block{
+    background-color: #502050;
+}
+h3{
+    color: white;
+    font-weight: 400;
+}
+small{
+    color: #a573a3;
+}

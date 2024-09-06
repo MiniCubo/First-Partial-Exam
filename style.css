@@ -7,9 +7,10 @@
 }
 body{
     width: 1440px;
+    height: 94vh;
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
     background-position: left top, right bottom;
-    background-size: 35%, 80%;
+    background-size: 550px, 1150px;
     background-repeat: no-repeat, no-repeat;
 }
 .main{
@@ -39,12 +40,14 @@ h1{
     color: #502050; 
     font-weight: 300; 
     margin : 0px;
-    padding-right: 180px;
+    padding-right: 80px;
 }
 .ratings{
     padding-left: 50px;
     width: 100%;
-
+    position: relative;
+    top: 5px;
+    left: 50px;
 }
 .rating {
     display: flex;
@@ -69,19 +72,63 @@ h1{
 }
 .bolder{
     margin: 15px 0px;
+    font-size: 15px;
     font-weight: 700;
     padding: 0px;
 }
 .reviews{
     display: flex;
+    width: 101%;
+    position: relative;
+    top: 50px;
 }
 .block{
     background-color: #502050;
+    border-radius: 10px;
+    padding: 40px 30px;
+    height: 180px;
+}
+.block p{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+}
+.r1{
+    margin-right: 15px;
+    position: relative;
+    top: -15px;
+}
+.r2{
+    margin: 0px 15px;
+}
+.r3{
+    margin-left: 15px;
+    position: relative;
+    top: 15px;
 }
 h3{
     color: white;
     font-weight: 400;
+    margin: 3px 0px;
+    text-align: justify;
 }
 small{
     color: #a573a3;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.image{
+    position: relative;
+}
+.profile{
+    position: relative;
+    left: 25px;
+    bottom: 2px;
+}
+.image img{
+    border-radius: 60px;
+    width: 50px;
 }
